@@ -1,0 +1,8 @@
+"DELETE ELEMENTS, MULTIPLY ALL THE ALL ELEMENTS, ENTER A SENTENCE AND PRINT IT BY JOINING, TAKE INPUT UNTIL PRESS K KEY AND RETURN THE SUM OF THE ENTRY,AVERAGE"
+r=[]
+mul=1
+num=int(input("ENTER THE STRING OR NO.:"))
+for i in range(0,num):
+    w=int(input("ENTER:"))
+    mul=mul*w 
+print(mul)
